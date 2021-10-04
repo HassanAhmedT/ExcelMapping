@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>HassanAhmed</Authors>
+    <Company>TachyHealth</Company>
+    <Description>A library to parsing the excel into generic model, using validation and parsing for each property in the excel file.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>TachyHealth.Util.ExcelMapping</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="5.7.4" />
+  </ItemGroup>
+
+</Project>
